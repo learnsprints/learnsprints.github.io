@@ -1,0 +1,21 @@
+@import "../css/home.css";
+
+.form-group input {
+  border-radius: 50px;
+  height: 40px;
+}
+label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+}
+.form-group textarea {
+  border-radius: 10px;
+  background: #ffffff;
+  opacity: 0.67;
+  border: 0px;
+}
+
+.row {
+  padding-top: 0px;
+}

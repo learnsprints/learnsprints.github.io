@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>Sprinters</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/archive.css" />
+    <script src='../google-spreadsheet.js'></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background: #04a988 !important ; padding: 35px 40px !important;"
+    >
+      <img src="../images/logo_white.png" style="margin-top: 10px;" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation" style='color:white'
+      >
+        Menu
+      </button>
+
+      <div
+        class="collapse navbar-collapse navbar-cs"
+        id="navbarSupportedContent"
+      >
+        <ul
+          class="nav nav-pills nav-fill"
+          style="padding-top: 10px !important;"
+        >
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="how.html"> How does this work ? </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html"> Our Team </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="archive.html"><b>Archives</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"> Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary subscribe" href="subscribe.html"
+              >Subscribe</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div style="text-align: left; color: white;">
+        <h3 style="text-align: left;">The Sprinter Archives</h3>
+        <p>
+          We love our sprints, and we want to make sure you have access to all
+          of our content. Listed below is our master archive of sprints: click
+          on a topic to see a breakdown of our emails from each day!
+        </p>
+<!--         <div class="sliders">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+          </ul>
+        </div> -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper" id='wrapper'>
+     
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+
+/*       <div class="swiper-slide">
+              <img src="../images/🐝.png" />
+              <h6>Financing the Olympics</h6>
+            </div> */
+
+      var yourJsonFile = "archives.json"
+      var archives = Array();
+      $.getJSON(yourJsonFile,function(data){
+       archives = data.archives;
+       var dates = Array();
+        archives.forEach(element => {
+
+     
+            let body = document.getElementById('wrapper');
+            let elem = document.createElement('div');
+            elem.className = 'swiper-slide';
+            elem.style.cssText = 'cursor:pointer';
+            elem.setAttribute('value',element.Date)
+            elem.innerHTML = "<div class='row'><div class='col header'><h3>"+element.Topic+"</h3></div><div class='col icon'><img src='"+element.Emoji+"' /></div></div><p>"+element.Description+"</p><div class='links'> <a href='"+element.Intro+"'  target='_blank'><h4>Intro</h4></a><a href='"+element.Perspectives+"'  target='_blank'><h4>Perspectives</h4></a><a href='"+element.Interview+"'  target='_blank'><h4>Interview</h4></a></div>";
+            body.appendChild(elem);
+            dates.push(element.Date);
+
+ 
+       });
+
+       var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        autoplay:true,
+        loop:true,
+        disableOnInteraction:false,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      });
+      $('.swiper-slide').click(function(){
+        let body = document.getElementById('results');
+        var date = $(this).attr('value');
+        var results = Array();
+        results = archives.filter(item=>item.Date==date);
+        body.innerHTML = "";
+
+        results.forEach(element=>{
+          let elem = document.createElement('div');
+          elem.className = 'row';
+          elem.style.cssText = 'padding-top:50px'
+          elem.innerHTML = "<img src='../images/🏅.png' /> <h6> "+element.Topic +"<br/><a href='"+element.Url+"' style='color:white;padding-left:10px;font-size:16px;text-decoration:none'>"+element.Url+"</a></h6>";
+          body.appendChild(elem);
+  
+        });
+        });
+      })
+
+
+
+    </script>
+  </body>
+  
+</html>

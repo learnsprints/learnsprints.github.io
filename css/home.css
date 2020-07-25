@@ -1,0 +1,67 @@
+body {
+  background: #04a988;
+}
+h3 {
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+}
+.row {
+  font-family: Open Sans;
+  font-style: normal;
+
+  font-size: 18px;
+
+  color: #f6f7eb;
+  padding-top: 50px;
+}
+
+.navbar {
+  text-align: center;
+}
+.nav .nav-link {
+  font-family: "Open Sans" !important;
+  font-style: normal !important;
+  font-size: 18px !important;
+  color: #f6f7eb !important;
+  padding: 0.5rem 3.5rem;
+}
+.navbar b {
+  border-bottom: dashed white 1px;
+}
+
+.header-text {
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 800px) {
+  .header-text {
+    margin-top: 0px;
+  }
+}
+input {
+  background: #ffffff;
+  opacity: 0.67;
+  border: 0px;
+  border-radius: 30px;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 15px;
+}
+.content {
+  padding-top: 20px;
+}
+.join {
+  border-radius: 50px;
+  height: 43px;
+  width: 100px;
+  background: #ff6986;
+  border: none;
+}
+.subscribe {
+  float: left;
+  background: #466175;
+  border: none;
+}
